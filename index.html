@@ -10,43 +10,55 @@
 <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
         <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
+            <footer class="flex flex-col mx-auto mt-0 space-y-3 md:space-y-0 md:flex-row bg-[#659f8f]">
                 <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
+                            <h1 class="max-w-lg text-lg font-normal tracking-tight text-[#313131] xl:text-xl pb-5"
+                                      >Subscribe to our newsletter for updates.</h1>
+                            <div class="flex space-x-4 ">
+
+                                <input type="text" id="email-address" class="px-4 py-2 text-sm font-extralight text-grey bg-[#F9FAFB] border rounded-md
+                                            focus:border-[#d86943] 
+                                            focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]" 
+                                            placeholder="Email Address">
+                                        </input>
+
+                                <button class="w-1/5 px-4 py-2.5 bg-[#d86943] hover:opacity-75 text-white
+                                              border rounded-md border-[#d86943]
+                                              focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 
+                                              focus:ring-[#313131]">
                                     Subscribe
                                 </button>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
+                            <p class=" font-medium text-[#313131] pb-4 ">Quick Link</p>
+                            <div class=" font-light text-[#313131] display:block  ">
+                                <a href="#" class="block hover:underline ">Home</a>
+                                <a href="#" class="block hover:underline ">Who We Are</a>
+                                <a href="#" class="block hover:underline ">Our Philosophy</a>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
+                            <p class=" font-medium text-[#313131] pb-4 ">Technologies</p>
+                            <div class=" font-light text-[#313131] display:block  ">
+                                <a href="#" class="block hover:underline ">HTML</a>
+                                <a href="#" class="block hover:underline ">CSS</a>
+                                <a href="#" class="block hover:underline ">JavaScript</a>
                             </div>
                         </div>
+
                     </div>
+        
+                    <hr class="my-8 px-6 border-[#d86943]">
                     
-                    <hr class="my-6 border-[#d86943]">
-                    
-                    <div class="flex">
+                    <div class="flex items-center justify-between">
                         <a href="#">
                             <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
                         </a>
                     </div>
+                   
     </footer>
 
 </body>
